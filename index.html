@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="images/logo.png" type="img/png">
+    <script src="index.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="brand-container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1 class="brand-name">Jerome's PortFolio</h1>
+        </div>
+
+        <div class="navigation">
+            <h1 class="menu">Menu</h1>
+            <ol>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Login</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main class="container">
+       <div class="content-zhongli" id="archon">
+            <img src="images/zhongli.jpg" alt="zhongli" class="zhongli">
+            <h1>Zhongli</h1>
+            <p>Geo Archon</p>
+       </div>
+
+       <div class="content-raiden" id="archon">
+            <img src="images/raiden.jpg" alt="raiden" class="raiden">
+            <h1>Raiden</h1>
+            <p>Electro Archon</p>
+       </div>
+
+       <div class="content-venti" id="archon">
+            <img src="images/venti.jpg" alt="venti" class="venti">
+            <h1>Venti</h1>
+            <p>Anemo Archon</p>
+       </div>
+
+       <div class="content-nahida" id="archon">
+            <img src="images/nahida.jpg" alt="nahida" class="nahida">
+            <h1>Nahida</h1>
+            <p>Dendro Archon</p>
+       </div>
+
+       <div class="content-furina" id="archon">
+            <img src="images/furina.jpg" alt="nahida" class="furina">
+            <h1>Furina</h1>
+            <p>Hydro Archon</p>
+       </div>
+    </main>
+    <hr size="3px" noshade>
+    <div class="main-container">
+        <div class="form-container">
+            <form action="/action_page.php">
+                <label for="fname">Firstname</label>
+                <input type="text" name="firstname" id="fname" class="fname" placeholder="Your Firstame...">
+    
+                <label for="lname">Lastname</label>
+                <input type="text" name="firstname" id="lname" class="lname" placeholder="You Lastname..">
+    
+                <label for="age">Age</label>
+                <input type="text" name="age" id="age" class="age" placeholder="Your Age...">
+
+                <label for="country">country</label>
+                <select name="country" id="country" class="country">
+                <option value="Philippines">Philippines</option>
+                <option value="usa">USA</option>
+                <option value="thailand">Thailand</option>
+                </select>
+                <input type="submit" class="submit">
+            </form>
+        </div>
+    </div>   
+</body>
+</html>

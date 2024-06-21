@@ -1,0 +1,204 @@
+nav{
+    background-color: black;
+    height: 3.5em;
+}
+
+.brand-container{
+    display: inline-block;
+}
+
+.logo{
+    height: 3.6em;
+    width: 3.6em;
+    cursor: pointer;
+}
+
+.brand-name{
+    margin: 0px 0px 0px 0px;
+    color: white;
+    display: inline;
+    position: relative;
+    top: -0.8em;
+}
+
+.navigation{
+    display: inline;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 4em;
+}
+
+.menu{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0px;
+    cursor: pointer;
+    width: 4em;
+    background-color: #4CAF50;
+}
+
+ol{
+    list-style-type: none;
+    margin: 0px;
+    color: white;
+    padding-left: 0px;
+    position: absolute;
+    cursor: pointer;
+}
+
+li{
+    text-align: center;
+    width: 6em;
+    display: none;    
+    background-color: rgb(129, 129, 129);
+    z-index: 1;
+}
+
+.navigation:hover .menu{
+    background-color: tomato;
+}
+
+.navigation:hover li{
+    display:block;
+}
+
+li:hover{
+    background-color: rgb(83, 83, 83);
+}
+.content-zhongli{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 30px;
+    transition: 0.8s;
+}
+
+.zhongli{
+    width: 17em;
+    height: 20em;
+    cursor: pointer;
+}
+
+.content-raiden{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 30px;
+}
+
+.raiden{
+    width: 17em;
+    height: 20em;
+}
+
+.content-venti{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 30px;
+}
+
+.venti{
+    width: 17em;
+    height: 20em;
+}
+
+.content-nahida{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 30px;
+}
+
+.nahida{
+    width: 17em;
+    height: 20em;
+}
+
+.content-furina{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 30px;
+}
+
+.furina{
+    width: 17em;
+    height: 20em;
+}
+
+.container{
+    display: flex;
+    justify-content: baseline;
+    align-content: baseline;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+#archon:hover{
+    border-color: red;
+    cursor: pointer;
+}
+
+.form-container{
+    margin-top: 10px;
+    background-color: rgb(232, 232, 232);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 30px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.fname{
+    display: block;
+}
+
+.lname{
+    display: block;
+}
+
+.age{
+    display: block;
+}
+
+.country{
+    display: block;
+}
+
+[for *="name"], [for *="age"]{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.submit{
+    width: 13em;
+    margin-top: 20px;
+    background-color: green;
+    border-radius: 20px;
+}
+
+input[type=text]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images/search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 15px 20px;
+    padding: 12px 20px 12px 40px;
+}
